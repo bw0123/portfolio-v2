@@ -1,11 +1,13 @@
 import React from 'react'
+import SwitchSection from './components/SwitchSection'
+import './styles/index.css'
 
 function App() {
   return (
     <div>
-     <h1 className="text-3xl font-bold underline">Testing push on my laptop</h1>
+      <SwitchSection />
     </div>
   );
 }
 
-export default App;
+export default App
