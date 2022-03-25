@@ -5,7 +5,6 @@ import WorkExperience from './WorkExperience'
 import Projects from './Projects'
 import Skills from './Skills'
 
-const { SubMenu } = Menu;
 const { Header } = Layout;
 
 function SwitchSection() {
@@ -43,15 +42,9 @@ function SwitchSection() {
                         <Menu.Item onClick={() => workExperienceSelected()}>
                             Work Experience
                         </Menu.Item>
-                        <SubMenu onClick={() => projectsSelected()} title="Projects">
-                            <Menu.ItemGroup>
-                                <Menu.Item key="setting:1">Venue Page</Menu.Item>
-                                <Menu.Item key="setting:1">Feedback App</Menu.Item>
-                                <Menu.Item key="setting:1">Budgeting App</Menu.Item>
-                                <Menu.Item key="setting:1">Delicious Travels</Menu.Item>
-                                <Menu.Item key="setting:1">Number Guessing Game</Menu.Item>
-                            </Menu.ItemGroup>
-                        </SubMenu>
+                        <Menu.Item onClick={() => projectsSelected()}>
+                            Projects
+                        </Menu.Item>
                         <Menu.Item onClick={() => skillsSelected()}>Skills</Menu.Item>
                     </Menu>
                 </Layout>
