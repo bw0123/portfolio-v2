@@ -1,4 +1,4 @@
-import React from "react"
+import React from 'react'
 import { Layout } from 'antd'
 
 const { Content } = Layout;
@@ -18,7 +18,7 @@ function Skills() {
         <Layout>
             <Content style={contentStyles}>
                 <div style={divStyles}>
-                    <h1 className="text-lg">Technologies/Tools</h1>
+                    <h1 className='text-lg'>Technologies/Tools</h1>
                 </div>
             </Content>
         </Layout>

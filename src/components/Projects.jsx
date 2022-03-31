@@ -25,7 +25,7 @@ function Projects() {
     return(
         <Layout>
             <Content style={contentStyles}>
-                <Carousel className="mt-10" afterChange={onChange} autoplay="true" >
+                <Carousel className='mt-10' afterChange={onChange} autoplay='true' >
                     <div>
                         <h3 style={contentStyle}>1</h3>
                     </div>

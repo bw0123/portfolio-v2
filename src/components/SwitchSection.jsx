@@ -35,8 +35,8 @@ function SwitchSection() {
         <div>
             <Header style={headerStyles}>
                 <Layout>
-                    <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
-                        <Menu.Item key="1" onClick={() => aboutSelected()}>
+                    <Menu theme='dark' mode='horizontal' defaultSelectedKeys={['1']}>
+                        <Menu.Item key='1' onClick={() => aboutSelected()}>
                             About
                         </Menu.Item>
                         <Menu.Item onClick={() => workExperienceSelected()}>

@@ -18,10 +18,10 @@ function WorkExperience() {
     return(
         <Layout>
             <Content style={contentStyles}>
-                <div style={divStyles} className="site-card-wrapper">
+                <div style={divStyles} className='site-card-wrapper'>
                     <Row gutter={16}>
                     <Col span={8}>
-                        <Card className="text-lg" title="Software Developer" bordered={false}>
+                        <Card className='text-lg' title='Software Developer' bordered={false}>
                             <ul>
                                 <li>bullet 1</li>
                                 <li>bullet 2</li>
@@ -30,7 +30,7 @@ function WorkExperience() {
                         </Card>
                     </Col>
                     <Col span={8}>
-                        <Card className="text-lg" title="Cohort Member" bordered={false}>
+                        <Card className='text-lg' title='Cohort Member' bordered={false}>
                             <ul>
                                 <li>bullet 1</li>
                                 <li>bullet 2</li>
@@ -39,7 +39,7 @@ function WorkExperience() {
                         </Card>
                     </Col>
                     <Col span={8}>
-                        <Card className="text-lg" title="Tutor" bordered={false}>
+                        <Card className='text-lg' title='Tutor' bordered={false}>
                             <ul>
                                 <li>bullet 1</li>
                                 <li>bullet 2</li>
@@ -57,8 +57,8 @@ function WorkExperience() {
 export default WorkExperience
 
  {/*
-                    <h1 className="text-2xl font-bold text-left">Software Developer</h1>
-                        <h3 className="text-xl font-medium">Place Name</h3>
+                    <h1 className='text-2xl font-bold text-left'>Software Developer</h1>
+                        <h3 className='text-xl font-medium'>Place Name</h3>
                         <div>June 2021 ~ August 2021</div>
                             <ul>
                                 <li>Created</li>
