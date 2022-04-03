@@ -1,33 +1,19 @@
 import React from 'react'
-import { Layout } from 'antd'
-
-const { Content } = Layout;
 
 function About() {  
-    const contentStyles = {
-        padding: '0 50px',
-        marginTop: 64,
-    }
-
-    const divStyles = {
-        padding: 50,
-        height: 1000,
-    }
-
     return(
-        <Layout>
-            <Content style={contentStyles}>
-                <div style={divStyles} >
-                    <p className='text-lg'>
-                        Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Maecenas hendrerit metus sit amet dolor malesuada sollicitudin. Vivamus dictum eu mauris vitae molestie. Suspendisse ac justo ut justo porttitor tempor. Mauris non tellus ac ligula vestibulum egestas. Mauris consectetur eu diam at vestibulum. Donec ut laoreet velit. Nam accumsan, ante id iaculis finibus, lorem ipsum scelerisque risus, non tempor dui metus sed sapien. Aliquam tempor nisl sit amet feugiat ornare. Fusce eleifend nisi id egestas bibendum. Proin tristique aliquet metus. Pellentesque porttitor, libero et vulputate pellentesque, justo nisi facilisis massa, tincidunt sodales velit sapien vitae urna. Fusce id dictum erat, sed maximus turpis.
-                    </p>
-                        <div className='flex justify-center p-10'>
-                            <button class="btn btn-primary">LinkedIn</button>
-                            <button class="btn btn-primary">Github</button>
-                        </div>
+        <div class='pt-10'>
+            <p className='text-lg p-10'>
+            I am currently looking for internships in the field of Web Development or Software Engineering. Becoming a Full-Stack Developer is my goal because I enjoy the creative process of planning the layout of websites and using code to make it functional. I look forward to learning frameworks, technologies, and improving my current skillset. In the process of this search, I am pursuing a Bachelors of Science degree in Computer Science at John Jay College.            </p>
+            <div className='flex justify-center p-10'>
+                <div className='pr-2'>
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">LinkedIn</button>
                 </div>
-            </Content>
-        </Layout>
+                <div>
+                    <button class="btn btn-xs sm:btn-sm md:btn-md lg:btn-lg">Github</button>
+                </div>
+            </div>
+        </div>
     )
 }
 
