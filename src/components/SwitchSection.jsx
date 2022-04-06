@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import About from './About'
 import WorkExperience from './WorkExperience'
+import Education from './Education'
 import Projects from './Projects'
 import Skills from './Skills'
 
@@ -15,17 +16,21 @@ function SwitchSection() {
         setCurrent(1);
     }
 
-    const projectsSelected = () => {
+    const educationSelected = () => {
         setCurrent(2);
     }
 
-    const skillsSelected = () => {
+    const projectsSelected = () => {
         setCurrent(3);
     }
-    
+
+    const skillsSelected = () => {
+        setCurrent(4);
+    }
+
     return(
         <div>
-            <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content text-xl">
+            <div class="navbar shadow-lg bg-neutral text-neutral-content text-xl">
                 <div class="flex-none px-2 mx-2">
                     <span class="font-bold">
                         Britney Wu
@@ -39,6 +44,9 @@ function SwitchSection() {
                         <a class="btn btn-ghost btn-sm rounded-btn" onClick={() => experienceSelected()}>
                             Experience
                         </a> 
+                        <a class="btn btn-ghost btn-sm rounded-btn" onClick={() => educationSelected()}>
+                            Education
+                        </a> 
                         <a class="btn btn-ghost btn-sm rounded-btn" onClick={() => projectsSelected()}>
                             Projects
                         </a> 
@@ -50,29 +58,11 @@ function SwitchSection() {
             </div>
             {current === 0 && <About />}
             {current === 1 && <WorkExperience />}
-            {current === 2 && <Projects />}
-            {current === 3 && <Skills />}
+            {current === 2 && <Education />}
+            {current === 3 && <Projects />}
+            {current === 4 && <Skills />}
         </div>
     )
 }
 
 export default SwitchSection
-
- {/*
-            <Header style={headerStyles}>
-                <Layout>
-                    <Menu theme='dark' mode='horizontal' defaultSelectedKeys={['1']}>
-                        <Menu.Item key='1' onClick={() => aboutSelected()}>
-                            About
-                        </Menu.Item>
-                        <Menu.Item onClick={() => experienceSelected()}>
-                            Work Experience
-                        </Menu.Item>
-                        <Menu.Item onClick={() => projectsSelected()}>
-                            Projects
-                        </Menu.Item>
-                        <Menu.Item onClick={() => skillsSelected()}>Skills</Menu.Item>
-                    </Menu>
-                </Layout>
-            </Header>      
-    */}
