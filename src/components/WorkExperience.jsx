@@ -1,20 +1,14 @@
 import React from 'react'
-import { Col, Row } from 'antd';
-
 
 function WorkExperience() {
     return(
         <div className='p-10'>
-            <Row gutter={16}>
-                <Col span={8}>
                     <div class="card w-96 bg-base-100 shadow-xl">
-                        <div class="card-body">
-                            <h2 class="card-title">Software Engineer Intern</h2>
-                                <p>bullet point</p>
+                        <div class="card-body text-lg">
+                            <h2 class="card-title font-bold">Software Engineer Intern</h2>
+                                <h3 class="font-semibold">EnergyWatch</h3>
                         </div>
                     </div>
-                </Col>
-            </Row>
         </div>
     )
 }

@@ -30,10 +30,10 @@ function SwitchSection() {
 
     return(
         <div>
-            <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content">
+            <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content text-xl">
                 <div class="flex-none px-2 mx-2">
-                    <span class="text-lg font-bold">
-                        Britney
+                    <span class="font-bold">
+                        Britney Wu
                     </span>
                 </div> 
                 <div class="flex-1 px-2 mx-2">
