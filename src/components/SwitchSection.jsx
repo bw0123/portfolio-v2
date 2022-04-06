@@ -22,12 +22,7 @@ function SwitchSection() {
     const skillsSelected = () => {
         setCurrent(3);
     }
-    const headerStyles = {
-        position: 'fixed',
-        zIndex: 1,
-        width: '100%',
-    }
-
+    
     return(
         <div>
             <div class="navbar mb-2 shadow-lg bg-neutral text-neutral-content text-xl">
