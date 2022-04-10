@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import InfiniteScroll from 'react-infinite-scroll-component';
 import About from './About'
 import WorkExperience from './WorkExperience'
 import Education from './Education'
