@@ -7,7 +7,7 @@ const { Content } = Layout;
 function Projects() {
     const contentStyles = {
         padding: '0 50px',
-        marginTop: 64,
+        marginTop: 2,
     }
 
     function onChange(a, b, c) {

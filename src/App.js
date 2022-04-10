@@ -1,12 +1,17 @@
 import React from 'react'
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import SwitchSection from './components/SwitchSection'
 import './styles/index.css'
 
 function App() {
   return (
-    <div>
-      <SwitchSection />
-    </div>
+    <Router>
+      <Switch>
+        <Route path='/'>
+          <SwitchSection />
+        </Route>
+      </Switch> 
+    </Router>
   );
 }
 
