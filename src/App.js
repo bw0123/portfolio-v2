@@ -4,6 +4,7 @@ import Navbar from './components/Navbar'
 import Home from './components/Home'
 import Experience from './components/Experience'
 import Education from './components/Education'
+import Projects from './components/Projects'
 import './styles/index.css'
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<Home />} />
           <Route path='/experience' element={<Experience />} />
           <Route path='education' element={<Education />} />
+          <Route path='/projects' element={<Projects />} />
         </Routes> 
     </Router>
   );
