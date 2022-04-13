@@ -23,7 +23,7 @@ function Projects() {
       }
 
     return(
-        <Layout>
+        <Layout className='h-screen'>
             <Content style={contentStyles}>
                 <Carousel className='mt-10' afterChange={onChange} autoplay='true' >
                     <div>
