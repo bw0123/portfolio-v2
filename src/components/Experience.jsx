@@ -5,7 +5,7 @@ function WorkExperience() {
         <div className='bg-base-content flex justify-center h-screen'>
             <div class='flex-col'>
                 <div className='p-3'>
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="card lg:card-side bg-base-100 shadow-xl">
                         <div class="card-body">
                             <p class="card-title font-bold text-xl">Software Engineer Intern</p>
                                 <div><p class="italic font-semibold text-lg">EnergyWatch - (June'21 to August'21)</p></div>
@@ -21,7 +21,7 @@ function WorkExperience() {
                     </div>
                 </div>
                 <div className='p-3'>
-                    <div class="card w-96 bg-base-100 shadow-xl">
+                    <div class="card lg:card-side bg-base-100 shadow-xl">
                         <div class="card-body">
                             <p class="card-title font-bold text-xl">Tutor</p>
                                 <p class="italic font-semibold text-lg">A & A Tutoring - (June'19 to August'19)</p>
