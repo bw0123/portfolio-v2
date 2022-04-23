@@ -4,7 +4,7 @@ import ttplogo from './images/ttp-logo.png'
 
 function Experience() {
     return(
-        <div className='bg-secondary-content flex justify-center h-screen p-12'>
+        <div class='bg-secondary-content flex justify-center h-screen p-12'>
             <div class='flex-col'>
                 <div class='p-3'>
                     <div class='card lg:card-side bg-base-100 shadow-xl'>
