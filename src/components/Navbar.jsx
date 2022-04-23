@@ -35,21 +35,21 @@ function Navbar() {
                 </div> 
                 <div class="flex-1 px-2 mx-2">
                     <div class="items-stretch hidden lg:flex">
-                        <a class="btn btn-ghost btn-sm rounded-btn">
-                           <Link to='/'>Home</Link>
-                        </a> 
-                        <a class="btn btn-ghost btn-sm rounded-btn" /* onClick={() => experienceSelected()} */>
-                            <Link to='/experience'>Experience</Link>
-                        </a> 
-                        <a class="btn btn-ghost btn-sm rounded-btn" /* onClick={() => educationSelected()} */>
-                            <Link to='/education'>Education</Link>
-                        </a> 
-                        <a class="btn btn-ghost btn-sm rounded-btn" /* onClick={() => projectsSelected()} */>
-                            <Link to='/projects'>Projects</Link>
-                        </a> 
-                        <a class="btn btn-ghost btn-sm rounded-btn" /* onClick={() => skillsSelected()} */>
-                            <Link to='/skills'>Skills</Link>
-                        </a>
+                        <Link to='/' class="btn btn-ghost btn-sm rounded-btn">
+                           Home
+                        </Link>
+                        <Link to='/experience' class="btn btn-ghost btn-sm rounded-btn">  {/* onClick={() => experienceSelected()} /> */}
+                            Experience
+                        </Link>
+                        <Link to='/education' class="btn btn-ghost btn-sm rounded-btn"> {/* onClick={() => educationSelected()} /> */}
+                            Education
+                        </Link>
+                        <Link to='/projects' class="btn btn-ghost btn-sm rounded-btn"> {/* onClick={() => projectsSelected()} /> */}
+                            Projects
+                        </Link>
+                        <Link to='/skills' class="btn btn-ghost btn-sm rounded-btn">  {/* onClick={() => skillsSelected()} /> */}
+                            Skills
+                        </Link>
                     </div>
                 </div> 
             </div>

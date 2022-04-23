@@ -6,7 +6,7 @@ import { GithubFilled } from '@ant-design/icons'
 function Projects() {
     return(
         <div class='base-300'>
-         <div className='p-10'>
+         <div className='p-12'>
                 <Carousel autoplay effect='fade'>
                     <div>
                         <h3 className='text-white text-center text-xl h-80 bg-blue-600'>Github Finder</h3>

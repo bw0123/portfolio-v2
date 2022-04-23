@@ -2,7 +2,7 @@ import React from 'react'
 
 function WorkExperience() {
     return(
-        <div className='bg-base-content flex justify-center h-screen'>
+        <div className='bg-base-content flex justify-center p-12'>
             <div class='flex-col'>
                 <div className='p-3'>
                     <div class="card lg:card-side bg-base-100 shadow-xl">
