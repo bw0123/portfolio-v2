@@ -1,7 +1,7 @@
 import React from 'react'
 import { Carousel } from 'antd';
-import ZoomInIcon from '@mui/icons-material/ZoomIn';
-import { GithubFilled } from '@ant-design/icons'
+import { HiOutlineZoomIn } from "react-icons/hi";
+import { FaGithub } from 'react-icons/fa';
 
 function Projects() {
     return(
@@ -32,8 +32,13 @@ function Projects() {
                                 <li>Bullet 3</li>
                             </ul>
                         <div class="card-actions justify-end">
-                            <button class="btn btn-circle btn-primary"><ZoomInIcon/></button>
-                            <button class="btn btn-circle btn-primary"><GithubFilled/></button>
+                            <button class="btn btn-circle btn-primary">
+                                <HiOutlineZoomIn />
+                            </button>
+                            <button class="btn btn-circle btn-primary">
+                                <FaGithub />
+
+                            </button>
                         </div>
                 </div>
                 <div class="card-body">
@@ -45,8 +50,12 @@ function Projects() {
                                     <li>Bullet 3</li>
                             </ul>
                             <div class="card-actions justify-end">
-                                <button class="btn btn-circle btn-primary"><ZoomInIcon/></button>
-                                <button class="btn btn-circle btn-primary"><GithubFilled/></button>
+                                <button class="btn btn-circle btn-primary">
+                                    <HiOutlineZoomIn />
+                                </button>
+                                <button class="btn btn-circle btn-primary">
+                                    <FaGithub />
+                                </button>
                             </div>
                         </div>
                 <div class="card-body ">
@@ -58,8 +67,13 @@ function Projects() {
                                 <li>Bullet 3</li>
                             </ul>
                             <div class="card-actions justify-end">
-                                <button class="btn btn-circle btn-primary"><ZoomInIcon/></button>
-                                <button class="btn btn-circle btn-primary"><GithubFilled/></button>
+                                <button class="btn btn-circle btn-primary">
+                                    <HiOutlineZoomIn />
+                                </button>
+                                <button class="btn btn-circle btn-primary">
+                                    <FaGithub />
+
+                                </button>
                             </div>
                 </div>
             </div>
