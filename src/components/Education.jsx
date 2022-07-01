@@ -14,10 +14,7 @@ function Experience() {
                                     <div class='text-base'>
                                         <p class='pb-2'>B.S in Computer Science</p>
                                         <p class='italic'>Expected graduation: Spring 2023</p>
-                                    </div>    
-                                    <div class='card-actions justify-end font-bold'>
-                                        New York, NY
-                                    </div>                        
+                                    </div>                          
                             </div>
                     </div>
                 </div>
@@ -32,9 +29,6 @@ function Experience() {
                                             <li>Designed and developed web applications using technologies</li>
                                             <li>Completed and contributed to group projects in teams of 8 developers</li>
                                         </ul>
-                                </div>
-                                <div class='card-actions justify-end font-bold'>
-                                    New York, NY
                                 </div>
                         </div>
                 </div>

@@ -5,8 +5,8 @@ import { SiJavascript, SiCplusplus } from "react-icons/si";
 function Skills() {
     return(
         <div className='p-10 text-xl font-bold'>
-            <p class='text-center'>Skills</p>
-            <ul class="menu bg-base-100 w-56 p-2 rounded-box">
+            <p class='text-start pb-5'>Skills</p>
+            <ul class="menu menu-compact lg:menu-normal w-56 p-2 bg-base-300 rounded-box">
                 <li>
                     <a>
                         <FaReact />
