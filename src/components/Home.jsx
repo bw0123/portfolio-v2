@@ -4,30 +4,28 @@ import bluehome from '../components/images/bluehome.jpg'
 
 function Home() {  
     return(
-        <div class='h-screen bg-cover bg-no-repeat bg-center'>
-            <div class="hero-content text-center text-neutral-content">
-                <div class="max-w-md"></div>
-                    <h1 class="mb-5 mt-12 text-5xl font-bold">Hello there, I'm Britney Wu</h1>
-                        <p className='text-lg p-12'>
-                        I am currently looking for internships in the field of Web Development or IT. Becoming a Full-Stack Developer is my goal because I enjoy the creative process of planning the layout of websites and using code to make it functional. I look forward to learning frameworks, technologies, and improving my current skillset. In the process of this search, I am pursuing a Bachelors of Science degree in Computer Science at John Jay College.
-                        </p>
-            </div>
-                <div className='flex justify-center p-5 gap-x-2'>
-                    <div>
-                        <a href='https://www.linkedin.com/in/britneywu01/' target='_blank' rel='noreferrer'>
-                            <button class="btn btn-circle btn-xs sm:btn-sm md:btn-md lg:btn-lg">   
-                                <FaLinkedin />
-                            </button>
-                        </a>
+        <div>
+            <div class='h-screen bg-cover bg-no-repeat bg-center' style={{ backgroundImage: `url(${bluehome})` }}>
+                <div class="hero-overlay bg-opacity-40">
+                    <div class="hero-content text-center text-neutral-content">
+                        <h1 class="mt-40 text-5xl font-bold">Hello there, I'm Britney Wu</h1>
                     </div>
-                    <div>
-                        <a href='https://github.com/bw0123' target='_blank' rel='noreferrer'>
-                            <button class="btn btn-circle btn-xs sm:btn-sm md:btn-md lg:btn-lg">
-                                <FaGithub />
-                            </button>
-                        </a>
-                    </div>
+                        <p className='text-lg text-center text-white p-12'>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc in diam justo. Proin quis neque lacinia, vestibulum risus iaculis, maximus arcu. Duis tincidunt est nec est ornare, ac sodales dui rutrum. Vivamus eleifend orci quis leo pellentesque, quis condimentum metus cursus. Morbi lacus enim, cursus et erat ut, vulputate luctus purus. Quisque ac elit dictum, venenatis quam ac, suscipit turpis. Donec viverra est mauris, eu mollis tellus mollis in.                         </p>
+                        <div className='flex justify-center p-5 gap-x-2'>
+                                <a href='https://www.linkedin.com/in/britneywu01/' target='_blank' rel='noreferrer'>
+                                    <button class="btn btn-circle btn-xs sm:btn-sm md:btn-md lg:btn-lg">   
+                                        <FaLinkedin />
+                                    </button>
+                                </a>
+                                <a href='https://github.com/bw0123' target='_blank' rel='noreferrer'>
+                                    <button class="btn btn-circle btn-xs sm:btn-sm md:btn-md lg:btn-lg">
+                                        <FaGithub />
+                                    </button>
+                                </a>
+                        </div>
                 </div>
+            </div>
         </div>
     )
 }

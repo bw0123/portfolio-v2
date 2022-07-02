@@ -36,11 +36,11 @@ function Navbar() {
                         <Link to='/experience' class="btn btn-ghost btn-sm rounded-btn">  {/* onClick={() => experienceSelected()} /> */}
                             Experience
                         </Link>
-                        <Link to='/education' class="btn btn-ghost btn-sm rounded-btn"> {/* onClick={() => educationSelected()} /> */}
-                            Education
-                        </Link>
                         <Link to='/projects' class="btn btn-ghost btn-sm rounded-btn"> {/* onClick={() => projectsSelected()} /> */}
                             Projects
+                        </Link>
+                        <Link to='/education' class="btn btn-ghost btn-sm rounded-btn"> {/* onClick={() => educationSelected()} /> */}
+                            Education
                         </Link>
                         <Link to='/skills' class="btn btn-ghost btn-sm rounded-btn">  {/* onClick={() => skillsSelected()} /> */}
                             Skills
